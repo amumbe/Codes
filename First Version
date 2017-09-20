@@ -185,7 +185,7 @@ design.css
 }
 #logo
 {
-    max-width: 200px;
+    width: 210px;
     height: 200px;
 }
 #links
@@ -195,7 +195,8 @@ design.css
 }
 h1
 {
-    color: black;
+    color: white;
+    padding-left: 80px;
     font: 160px Brush Script Std, Brush Script MT, cursive;
     font-stretch: extra-expanded;
     padding-bottom: 0px;
@@ -207,7 +208,7 @@ h1
 #login
 {
     text-align: left;
-    padding-left: 150px;
+    padding-left: 120px;
     font-size: 20px;
     color: white;
     display: -webkit-box;
@@ -233,12 +234,14 @@ li
 }
 li a
 {
+   display: block;  
    text-decoration-line: none;
    color: #BE1523;
    -webkit-transition:color 0.5s,font 0.5s;
    transition: 0.5s ease;
    border-bottom: 3px solid transparent;
    margin: 0px;
+   /*border-left: 2px solid #BE1523;*/
 }
 li a:after
 {
@@ -263,6 +266,7 @@ li a:focus, li a:active
    background: #BE1523;
    color: black;
 }
+
 -----------------------------------------------------------------------------------------------------------------------------
 
 
@@ -357,18 +361,8 @@ donor registration.html
                     <li><a href="#bloodbank">Blood Bank</a></li>
                 </ul>
             </nav>
-        
-        <div id="home">
-        </div>
-        <div id="recipients">
-        </div>
-        <div id="donors">
-        </div>
-        <div id="bloodbank">
-        </div>
     </head>
     <body>
-        
     </body>
 </html>
 -----------------------------------------------------------------------------------------------------------------------------
